@@ -28,9 +28,13 @@ $active_style = 'style="background-color: purple; color: white; border-radius: 5
                     </li>
                     
                     <!-- Nút Products (Chưa làm, để trống) -->
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa-solid fa-shop"></i> <span>Products</span></a>
-                    </li>
+                    <!-- Nút Products -->
+<li>
+    <a href="<?php echo $rootPath; ?>/products/index.php" aria-expanded="true">
+        <i class="fa-solid fa-shop"></i>
+        <span>Products</span>
+    </a>
+</li>
                     
                     <!-- Nút Comments (Chưa làm, để trống) -->
                     <li class="<?php echo $is_comments ? 'active' : ''; ?>">
